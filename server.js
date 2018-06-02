@@ -8,6 +8,10 @@ const profile = require('./routes/api/profile');
 
 const app = express();
 
+//BodyParser MidleWare
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
+
 //DB Config
 const DB = require('./Config/Keys').mongoURI;
 
