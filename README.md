@@ -1,5 +1,5 @@
 # ExpressServerSetUp
-Set up for an Express Server, Mongo, and simple API routes.
+Set up for an Express Server incorporating Mongo, and creating a simple API route to get started.
 
 1: create a folder for your server and run the following command in the terminal.
 npm ini
