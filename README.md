@@ -1,8 +1,8 @@
 # ExpressServerSetUp
-Set up for an Express Server incorporating Mongo, and creating a simple API route to get started.
+Set up for an Express Server along with MongoDB, and creating a simple API route to get started.
 
 1: create a folder for your server and run the following command in the terminal.
-npm ini
+npm init
 
 2: Follow the steps to initialize the project. 
 Here you have a choice of what your main file will be in this case I set mine to server.js as the entry point.
@@ -24,6 +24,16 @@ Initialize app: const app = express();
 5: Create a mlab database to use mongoose.
 
 # Mongo URI Set Up:
+
+    1: Go to mlab.com and create a free account. 
+
+    2: Next on the top right chooose the option Create New to create a new daatabase.
+
+    3: Choose whatever cloud provider you want AWS Google Microsoft and select the Sandbox option for a free database.
+    
+    4: After creating the database go into it and create a new user for it. Every database you create NEEDS a user. 
+    
+    5: Next, on the page where you go into the database copy the URL that is posted on the top left and paste it in the             Keys.js file.
 
 6: Create a folder called Config in the root directory of your project and a file called Keys.js. This is where you will store the URI for mlab.
 
