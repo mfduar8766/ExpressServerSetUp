@@ -33,7 +33,7 @@ Initialize app: const app = express();
     
     4: After creating the database go into it and create a new user for it. Every database you create NEEDS a user. 
     
-    5: Next, on the page where you go into the database copy the URL that is posted on the top left and paste it in the             Keys.js file.
+    5: Next, on the page where you go into the database copy the URL that is posted on the top left and paste it in the Keys.js file.
 
 6: Create a folder called Config in the root directory of your project and a file called Keys.js. This is where you will store the URI for mlab.
 
